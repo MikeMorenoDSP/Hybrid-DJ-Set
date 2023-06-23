@@ -84,7 +84,7 @@
 #X obj 147 127 loadbang;
 #X msg 147 148 1;
 #X obj 147 169 -~;
-#X obj 222 93 *~ 0.5;
+#X obj 222 93 *~ 0.7;
 #X connect 0 0 2 0;
 #X connect 0 0 19 0;
 #X connect 2 0 1 0;
