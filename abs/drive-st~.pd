@@ -1,4 +1,4 @@
-#N canvas 817 324 440 381 10;
+#N canvas 817 324 1 1 10;
 #X obj 12 181 inlet~;
 #X obj 12 293 outlet~;
 #X obj 164 181 inlet~;
@@ -9,14 +9,14 @@
 #X text 162 161 Inlet 2: Right;
 #X obj 275 193 line~;
 #X msg 275 172 \$1 100;
-#X obj 275 62 r \$1-\$2-drive-s;
-#X text 275 42 GUI: Drive;
+#X obj 275 67 r \$1-\$2-drive-s;
+#X text 275 47 GUI: Drive;
 #X obj 12 248 else/drive~ -mode 1;
 #X obj 164 248 else/drive~ -mode 1;
-#X obj 275 83 / 100;
-#X obj 275 104 * 24;
-#X obj 275 125 + 100;
-#X obj 275 146 dbtorms;
+#X obj 275 88 / 100;
+#X obj 275 109 * 24;
+#X obj 275 130 + 100;
+#X obj 275 151 dbtorms;
 #X connect 0 0 12 0;
 #X connect 2 0 13 0;
 #X connect 8 0 13 1;
